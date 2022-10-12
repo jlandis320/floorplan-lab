@@ -1,5 +1,6 @@
 import Kitchen from "./Kitchen"
 import Bath from "./Bath"
+import Bedroom from "./Bedroom"
 
 function FloorPlan(props){
   return (
@@ -7,6 +8,9 @@ function FloorPlan(props){
     <Kitchen />
     <Bath size='Half'/>
     <Bath size='Full'/>
+    <Bedroom bedNum="1"/>
+    <Bedroom bedNum="2"/>
+    <Bedroom bedNum="3"/>
     </>
   )
 }
