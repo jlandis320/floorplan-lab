@@ -1,6 +1,8 @@
+import Kitchen from "./Kitchen"
+
 function FloorPlan(props){
   return (
-    <div>I'm the FloorPlan</div>
+    <Kitchen />
   )
 }
 
